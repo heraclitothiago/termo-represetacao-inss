@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  display: grid;
+  place-content: center;
+  padding: 0.1rem 15rem;
+}
+body img {
+  padding-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+}
+body h1,
+body h2,
+body h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+body p {
+  text-align: justify;
+  margin-bottom: 1.6rem;
+}
+body ol {
+  margin-left: 5rem;
+  list-style-type: upper-roman;
+  margin-bottom: 1.6rem;
+  margin-top: -0.8rem;
+}
+body .assinatura {
+  border-top: 1px solid black;
+  text-align: center;
+  padding-bottom: 1.6rem;
+  width: 50%;
+  margin: 0 auto;
+}
+@media print {
+  body {
+    font-size: 1.2rem;
+    padding: 0 0;
+  }
+  body h1,
+  body h2,
+  body h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  body footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
